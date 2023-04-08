@@ -1,0 +1,18 @@
+{
+  "name": "wear",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "author": "uduakabasi bernard edwin",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "kutty": "^0.6.0",
+    "preline": "^1.7.0"
+  }
+}
